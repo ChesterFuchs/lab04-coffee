@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coffee Home</title>
+    <title>CODECAFE</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <script>
-    console.log("hola mundo");
+    alert('Bienviendo a CODECAFE')
+    let nombre = prompt("Brindeme su nombre para poder atenderlo ");
+    alert(' bienvenido'+  " " + `${nombre}`);
+    let productos=prompt('Indicanos que producto desea comprar');
+    alert("Excelente" + " " + "decision" );
+    if(productos=="cafe")
+        alert('Estupendo ¿Lo desea caliente o helado? ');
+        let respuesta=confirm('si, caliente')
+        if(respuesta==true){
+             alert('Excelente su cafe caliente esta siendo preparado');
+
+             }else{
+                 alert(' Excelente su cafe helado esta siendo preparado');
+             }
 </script>
 <body>
     <header>
