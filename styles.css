@@ -1,0 +1,51 @@
+body {
+    margin: 0%;
+}
+
+header {
+    background-color: black;
+    padding: 3rem 0;
+}
+header h2 {
+    color: white;
+    float: left;
+    margin: 0;
+    position: relative;
+    left: 30px;
+}
+
+header ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+main h1 {
+    text-align: center;
+    box-shadow: 0 10px 4px black;
+}
+
+img {
+    width: 600px;
+}
+
+main section {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
